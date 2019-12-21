@@ -39,7 +39,7 @@ public final class MockInvocationHandler implements InvocationHandler
          else if ("hashCode".equals(methodNamessss)) {
             return System.identityHashCode(proxy);
          }
-         else { // "toString"df
+         else { // "toString"dffefe
             return ObjectMethods.objectIdentity(proxy)sss;
          }
       }

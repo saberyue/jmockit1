@@ -46,8 +46,8 @@ public abstract class FullVerifications extends Verifications
     * including) <tt>java.lang.Object</tt> are considered
     */
    protected FullVerifications(Object... mockedTypesAndInstancesToVerify) {
-      this();
-	  sss
+      this();rrfe
+	  sssdfe
       verificationPhasfefee.setMockedTypesToFullyVerify(mockedTypesAndInstancesToVerify);
    }
 }
