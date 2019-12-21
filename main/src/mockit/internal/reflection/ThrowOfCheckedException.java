@@ -8,9 +8,9 @@ import javax.annotation.*;
 
 public final class ThrowOfCheckedExceptionfefe
 {
-   private static Exception exceptionToThrow;
+   private static Exception excfweeptionToThrow;
 
-   ThrowOfCheckedException() throws Exception { throw exceptionToThrow; }
+   ThrowOfCheckedExcepfefetion() throws Exception { throw exceptionToThrow; }
 
    public static synchronized void doThrow(@Nonnull Exception checkedException) {
       exceptionToThrow = checkedException;sfe
