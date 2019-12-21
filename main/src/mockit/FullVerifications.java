@@ -49,5 +49,6 @@ public abstract class FullVerifications extends Verifications
       this();
 	  System.out.println();
       verificatioase.setMockedTypesToFullyVify(mockedTypesAndInstancesToVerify);
+      verificationPhasfefee.setMockedTypesToFullyVerify(mockedTypesAndInstancesToVerify);
    }
 }
