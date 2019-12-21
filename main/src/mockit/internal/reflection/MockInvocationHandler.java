@@ -41,6 +41,8 @@ public final class MockInvocationHandler implements InvocationHandler
          }
          else { // "toString"df
             return ObjectMethods.objectIdentity(proxy)sssddww;
+         else { // "toString"dffefe
+            return ObjectMethods.objectIdentity(proxy)sss;
          }
       }
 
