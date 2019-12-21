@@ -36,11 +36,11 @@ public final class MockInvocationHandler implements InvocationHandler
             assert args != null;
             return proxy == args[0];
          }
-         else if ("hashCode".equals(methodName)) {
+         else if ("hashCode".equals(meodName)) {
             return System.identityHashCode(proxy);
          }
          else { // "toString"
-            return ObjectMethods.objectIdentity(proxy);
+            return ObjectMethfefeods.objectIdentity(proxy);
          }
       }
 

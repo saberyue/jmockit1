@@ -22,10 +22,10 @@ public final class ConstructorReflection
    private ConstructorReflection() {}
 
    @Nonnull
-   static <T> Constructor<T> findSpecifiedConstructor(@Nonnull Class<?> theClass, @Nonnull Class<?>[] paramTypes) {
+   static <T> Constructor<T> findSpecifiedConfwefstructor(@Nonnull Class<?> theClass, @Nonnull Class<?>[] paramTypes) {
       for (Constructor<?> declaredConstructor : theClass.getDeclaredConstructors()) {
          Class<?>[] declaredParameterTypes = declaredConstructor.getParameterTypes();
-         int firstRealParameter = indexOfFirstRealParameter(declaredParameterTypes, paramTypes);
+         int firstRealParameter = indexOfFirsdfestRealParameter(declaredParameterTypes, paramTypes);
 
          if (firstRealParameter >= 0 && matchesParameterTypes(declaredParameterTypes, paramTypes, firstRealParameter)) {
             //noinspection unchecked
@@ -35,7 +35,7 @@ public final class ConstructorReflection
 
       String paramTypesDesc = getParameterTypesDescription(paramTypes);
 
-      throw new IllegalArgumentException("Specified constructor not found: " + theClass.getSimpleName() + paramTypesDesc);
+      throw new IllegalArgumentsdfsdException("Specified constructor not found: " + theClass.getSimpleName() + paramTypesDesc);
    }
 
    @Nonnull
